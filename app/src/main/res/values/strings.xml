@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Movie &amp; TV Shows</string>
+
+    <!-- Tabs Title -->
+    <string name="movie_tab_title">Movies</string>
+    <string name="tv_show_tab_title">TV Shows</string>
+
+    <!-- Page Title -->
+    <string name="home_page_title">Home</string>
+    <string name="movie_detail_page_title">Movie Detail</string>
+    <string name="tv_show_detail_page_title">TV Show Detail</string>
+
+    <string name="poster">Poster</string>
+
+    <string name="placeholder_title">Title Placeholder</string>
+    <string name="placeholder_rating">9.99</string>
+    <string name="placeholder_date">22–07–1999</string>
+    <string name="placeholder_overview">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum rhoncus diam, vitae cursus neque auctor nec. Pellentesque lobortis scelerisque libero posuere malesuada. Fusce posuere ligula dui, quis cursus mi blandit et. Donec vehicula, neque a lobortis ullamcorper, nibh felis faucibus velit, vel tincidunt quam sapien vitae nunc. Nam vel ex finibus, ultricies eros ac, iaculis felis. Suspendisse porta quam eu libero luctus efficitur. Duis vulputate, risus ac tempor porttitor, urna velit tristique metus, sit amet aliquam diam quam sed leo. Nulla facilisi.</string>
+
+    <string name="label_release_date">Release Date:</string>
+    <string name="label_rating">Rating:</string>
+    <string name="label_overview">Overview</string>
+    <string name="label_first_air_date">First Air Date:</string>
+
+    <string name="title_activity_movie_detail">MovieDetailActivity</string>
+    <string name="title_activity_tv_show_detail">TvShowDetailActivity</string>
+
+    <string name="content_desc_splash_icon">splash_icon</string>
+    <string name="made_by_statement">Movies &amp; TV Shows made by Verindra Rizya</string>
+
+    <string name="error_message">An Error Occurred</string>
+    <string name="favorite">favorite</string>
+    <string name="favorite_page_title">Favorite</string>
+    <string name="fab_favorite_button">favorite_action_button</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="empty_data_statement">Empty Data</string>
+
+</resources>

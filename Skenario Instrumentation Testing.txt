@@ -1,0 +1,51 @@
+Skenario Instrumentation Test
+
+1. Menampilkan data List Movie
+	- memastikan rv_movies tampil
+	- gulir rv_movies ke posisi data yang ditentukan (nomor posisi data diambil dari banyaknya jumlah data yang ada pada data dummy movies)
+
+2. Menampilkan data List Tv Shows
+	- memberi aksi klik pada tab Tv Shows
+	- memastikan rv_tv_shows tampil
+	- gulir rv_tv_shows ke posisi data yang ditentukan (nomor posisi data diambil dari banyaknya jumlah data yang ada pada data dummy tv shows)
+
+3. Menampilkan detail dari Movie
+	- memberi aksi klik pada data pertama di rv_movies
+	- memastikan ImageView pada poster ter-display
+	- memastikan TextView untuk title ter-display
+	- memastikan TextView untuk label release date ter-display
+	- memastikan TextView untuk release date ter-display
+	- memastikan TextView untuk label rating ter-display
+	- memastikan TextView untuk rating ter-display
+	- memastikan TextView untuk label overview ter-display
+	- memastikan TextView untuk overview ter-display
+
+4. Menampilkan detail dari Tv Shows
+	- memberi aksi klik pada tab Tv Shows
+	- memberi aksi klik pada data pertama di rv_tv_shows
+	- memastikan ImageView pada poster ter-display
+	- memastikan TextView untuk title ter-display
+	- memastikan TextView untuk label first air date ter-display
+	- memastikan TextView untuk first air date ter-display
+	- memastikan TextView untuk label rating ter-display
+	- memastikan TextView untuk rating ter-display
+	- memastikan TextView unutk label overview ter-display
+	- memastikan TextView untuk overview ter-display
+
+5. Menambah Favorit Movie(pada instrumentation test ini asumsi belum ada data movie yang favorite atau sudah terisi namun data pertama belum favorit)
+    - memastkan rv_movies ter-display
+    - memberi aksi klik pada data pertama di rv_movies
+    - memberi aksi klik pada FAB button favorite
+    - memberi aksi klik pada back button
+    - memberi aksi klik pada menu action_favorite yang ada pada app bar
+    - memastikan rv_movies pada halaman favorite ter-display
+
+6. Menambah Favorit Tv Show(pada instrumentation test ini asumsi belum ada data tv show yang favorite atau sudah terisi namun data pertama belum favorit)
+    - memberi aksi klik pada tab Tv Shows
+    - memastikan rv_tv_shows ter-display
+    - memberi aksi klik pada data pertama di rv_tv_shows
+    - memberi aksi klik pada FAB button favorite
+    - memberi aksi klik pada back button
+    - memberi aski klik pada menu action_favorite yang ada pada app bar
+    - memberi aksi klik pada tab Tv Shows pada halaman favorite
+    - memastikan rv_tv_shows pada halaman favorite ter-display
